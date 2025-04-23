@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.left {
+  width: 25vw;
+  padding: 10px;
+}
+.right {
+  width: 75vw;
+  overflow: scroll;
+}
+
+/* For Webkit browsers */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+  height: 12px; /* Height of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555; /* Dark color for the thumb (the draggable part) */
+  border-radius: 10px; /* Optional: rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #222; /* Dark color for the track (the area the thumb moves along) */
+  border-radius: 10px; /* Optional: rounded corners for the track */
+}
+.left {
+  background-color: #121212;
+}
+.sp {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 8px;
+}
+.home ul li {
+  list-style: none;
+  display: flex;
+  width: 14px;
+  gap: 15px;
+  padding-top: 14px;
+  font-weight: bold;
+}
+.home {
+  color: white;
+  background-color: rgb(34, 34, 34);
+}
+.library {
+  min-height: 80vh;
+  position: relative;
+  background-color: rgb(34, 34, 34);
+}
+.footer {
+  display: flex;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  color: grey;
+  gap: 13px;
+  position: absolute;
+  bottom: 0;
+}
+.body {
+  background-color: black;
+  color: white;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(34, 34, 34);
+}
+
+.header > * {
+  padding: 6px;
+}
+.spotifyPlaylist {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+  max-height: 70vh;
+  padding: 14px;
+}
+.card{
+  position: relative;
+}
+
+.sp {
+  padding: 40px;
+  margin-left: -30px;
+}
+.spotifyPlaylist .card {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #252525;
+}
+
+.card img {
+  width: 100%;
+  object-fit: contain;
+}
+.card > * {
+  padding-top: 10px;
+}
+.buttons > * {
+    margin: 0 12px;
+}
+.Signupbtn{
+    background-color: rgb(34, 34, 34);
+    color: grey;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.Signupbtn:hover{
+    font-size: 17px;
+    color: white;
+}
+.Loginbtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: white; /* Green background */
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.Loginbtn:hover {
+  background-color: black;
+  color: white;
+}
+.play{
+  opacity: 1;
+  transition: all 1s ease-out;
+  position:absolute;
+  right: 10px;
+  bottom: 100px;
+
+}
